@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfumery Luxury</title>
+    <script>
+function scrollToProducts() {
+    const productsSection = document.getElementById('products');
+    productsSection.scrollIntoView({ behavior: 'smooth' });
+}
+    </script>
+    <style>
+        
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7dce4;
+    color: #020202;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #050505;
+    font-weight: bold;
+    
+}
+nav a:hover{
+    background-color: rgb(231, 136, 188);
+    padding: 40px;
+}
+
+.hero {
+    background-image: url('parfumzara.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: black;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Georgia', serif;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    background-color: #b44c3c;
+    color: rgb(254, 253, 253);
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.products h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-item h4 {
+    margin: 10px 0;
+}
+
+.product-item span {
+    color: #d00991;
+    font-weight: bold;
+}
+
+.reviews {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f6f8f2;
+}
+
+.reviews h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+}
+
+footer {
+    padding: 20px;
+    background-color: #d76d9b;
+    color: rgb(16, 15, 15);
+    text-align: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #f7f7f5;
+    text-decoration: none;
+}
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <div class="perfum4d">
+            <h1><i>Perfume Luxury</i></h1>
+        </div>
+        <nav>
+            <a href="Home.html">Home</a>
+            <a href="About us.html">About us</a>
+            <a href="Contact us.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to Perfumery Luxury</h2>
+        <p>Today's perfume review: I am absolutely impressed with the new range of perfumes.</p>
+        <button onclick="scrollToProducts()">Explore Products</button>
+    </section>
+
+    <section class="products" id="products">
+        <h3>Other nuggets</h3>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="Perfume Givenchy.jpg" alt="" style="width:110px;">
+                <h4>Perfume Givenchy</h4>
+                <p>Givenchy perfumes at LaBelle for men & women including Amarige.</p>
+                <span>$1000</span>
+            </div>
+            <div class="product-item">
+                <img src="perfum Louis Vuitton.jpg" alt=""style="width: 110px;;">
+                <h4>Perfum Louis Vuitton</h4>
+                <p>Floral and Sweet.</p>
+                <span>$1500 </span>
+            </div>
+            <div class="product-item"> 
+                <img src="Perfume Kayali.jpg" alt=""style="width:100px">
+                <h4>Perfume Kayali</h4>
+                <p>floral, fresh, fruity, woody, & musky-scented.</p>
+                <span>$800</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <h3>We know what's best for you</h3>
+        <p>"Your well-being is our priority" - Pascale Grace</p>
+    </section>
+
+    <footer>
+        <p>Connect with us on social media:</p>
+        <div class="social-links">  
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Facebook</a>
+        </div>
+        <p>&copy; 2024 Perfume. All rights reserved.</p>
+    </footer>
+
+    
+</body>
+</html>

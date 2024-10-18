@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+
+    <script>
+        document.querySelector(".btn").addEventListener("click", function() {
+    alert("Thank you for contacting us!");
+});
+    </script>
+    <style>
+       
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: brown;
+    color: black;
+}
+
+header {
+    padding: 20px;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-btn {
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.about-header {
+    background: url('video perfume.mp4') no-repeat center center/cover;
+    text-align: center;
+    padding: 100px 0;
+    margin-bottom: 50px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    gap: 20px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.hire-us {
+    text-align: center;
+    padding: 100px;
+    background: url('representatrice coco.jpg') no-repeat center center/cover;
+}
+
+footer {
+    background-color:wheat;
+    padding: 50px 20px;
+}
+
+.footer-content {
+    display: right;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 20px;
+}
+
+.social-media a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"></div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="About us.html">About Us</a></li>
+                <li><a href="Contact us.html">Contac us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="about-header">
+            <h1>About Us</h1>
+            <p>Home</p>
+            <video autoplay muted loop id="myvideo">
+                <source src="perfume.mp4" type="video/mp4">
+             </video>
+             <audio controls autoplay>
+                <source src="horse.ogg" type="audio/ogg">
+                <source src="c:\Users\HP\Downloads\Burna Boy - Pull Up [Audio].mp4" type="audio/mpeg"> 
+             </audio>
+        </section>
+
+        <section class="about-content">
+            <div class="about-text">
+                <h2>We Always Make The Best for you</h2>
+                <p>The Chanel No. 5 perfume bottle is made of high-quality materials and has a smooth surface, unlike a Chanel counterfeit made of poor-quality materials with a rougher surface, and sometimes even plastic.</p>
+                <p>Shop every floral, fresh, fruity, woody, & musky-scented note you need can be found in a Kayali fragrance. Try our best-selling Eden Juicy Apple </p>
+            </div>
+            <div class="about-image">
+                <img src="scandal.jpg"style="width: 500px;">
+            </div>
+        </section>
+
+       
+            </div>
+
+        <section class="hire-us">
+            <h2>We Are Always Ready To Take A Perfect Shot</h2>
+            <a href="#" class="btn">Get Started</a>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+            </div>
+            <div class="footer-contact">
+                <h4>More Information</h4>
+                <p>Rwanda,Kigali, Kabeza Market KK 24</p>
+                <p>+250 798 696 563</p>
+                <p>Perfumeryluxury@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2023 vigraph | Powered by vigraph</p>
+            <div class="social-media">
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">YouTube</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
